@@ -1,12 +1,11 @@
 import React from 'react'
+import Hero from "./sections/Hero.jsx";
 
 const App = () => {
     return (
-        <main>
-            <div className="text-3xl">
-                Welcome to my 3D Portfolio!
-            </div>
-        </main>
+        <>
+            <Hero />
+        </>
     )
 }
 export default App
