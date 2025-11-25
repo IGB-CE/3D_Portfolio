@@ -29,9 +29,9 @@ const words = [
 ];
 
 const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
+    { value: 2, suffix: "+", label: "Years of Experience" },
+    { value: 20, suffix: "+", label: "Satisfied Clients" },
+    { value: 10, suffix: "+", label: "Completed Projects" },
     { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
@@ -120,12 +120,6 @@ const techStackIcons = [
         rotation: [0, 0, 0],
     },
     {
-        name: "Python Developer",
-        modelPath: "/models/python-transformed.glb",
-        scale: 0.8,
-        rotation: [0, 0, 0],
-    },
-    {
         name: "Backend Developer",
         modelPath: "/models/node-transformed.glb",
         scale: 5,
@@ -147,100 +141,49 @@ const techStackIcons = [
 
 const expCards = [
     {
-        review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-        imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
-        title: "Frontend Developer",
-        date: "January 2023 - Present",
+        review:
+            "Igli’s work on Localweb’s PHP-based web applications kept our existing projects stable and evolving. He reliably handled bug fixes, small features and performance improvements across the full stack using PHP, MySQL, HTML/CSS, JavaScript and Git.",
+        imgPath: "/images/localweb_logo_exp.jpeg",
+        logoPath: "/images/localweb_logo.jpeg",
+        title: "Web Developer (PHP) Intern",
+        date: "Internship at Localweb",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            "Maintained and updated existing PHP-based web applications, fixing bugs and implementing small feature improvements according to client and internal requests.",
+            "Debugged issues in legacy PHP code (forms, authentication, CRUD operations) and optimized queries to improve page load time and reliability.",
+            "Worked with MySQL databases to update, query and migrate data, ensuring data integrity across different modules of the applications.",
+            "Collaborated with senior developers to understand project requirements, propose technical solutions, and implement changes following coding standards.",
+            "Updated front-end components (HTML/CSS/JavaScript) to correct layout issues, improve usability and align with the existing design.",
+            "Used Git for version control to commit changes, create branches and resolve simple merge conflicts in a team environment.",
+            "Wrote and updated basic technical documentation for new features and modified modules to help future maintenance.",
         ],
     },
     {
-        review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-        imgPath: "/images/exp2.png",
-        logoPath: "/images/logo2.png",
-        title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
+        review:
+            "Igli quickly became a productive member of the Dominusoft team, delivering a full-stack MERN project from design to deployment. He worked confidently across frontend, backend and collaboration tools like Figma, Trello and GitHub.",
+        imgPath: "/images/dominusoft_logo_exp.jpeg",
+        logoPath: "/images/dominusoft_logo.jpeg",
+        title: "Full-Stack Developer (MERN) – Intern",
+        date: "Course & Internship at Dominusoft",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
-        ],
-    },
-    {
-        review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-        imgPath: "/images/exp3.png",
-        logoPath: "/images/logo3.png",
-        title: "React Native Developer",
-        date: "March 2019 - May 2020",
-        responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Developed a full-stack web application using the MERN stack (MongoDB, Express.js, React, Node.js), from database design to front-end UI.",
+            "Built reusable React components and implemented REST API endpoints in Node.js/Express to handle authentication, CRUD operations and core business logic.",
+            "Designed responsive user interfaces and user flows in Figma, then translated them into clean, maintainable React code.",
+            "Integrated the frontend with MongoDB through Express/Node, ensuring data validation, error handling and secure access to resources.",
+            "Managed project tasks and milestones using Trello, breaking down features into smaller tickets and tracking progress.",
+            "Used GitHub for version control: creating branches, making pull requests and collaborating through code reviews.",
+            "Worked closely with mentors and teammates to review code, refactor modules and improve performance and readability.",
         ],
     },
 ];
 
 const expLogos = [
     {
-        name: "logo1",
-        imgPath: "/images/logo1.png",
+        name: "localweb-logo",
+        imgPath: "/images/localweb_logo.png",
     },
     {
-        name: "logo2",
-        imgPath: "/images/logo2.png",
-    },
-    {
-        name: "logo3",
-        imgPath: "/images/logo3.png",
-    },
-];
-
-const testimonials = [
-    {
-        name: "Esther Howard",
-        mentions: "@estherhoward",
-        review:
-            "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-        imgPath: "/images/client1.png",
-    },
-    {
-        name: "Wade Warren",
-        mentions: "@wadewarren",
-        review:
-            "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-        imgPath: "/images/client3.png",
-    },
-    {
-        name: "Guy Hawkins",
-        mentions: "@guyhawkins",
-        review:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        imgPath: "/images/client2.png",
-    },
-    {
-        name: "Marvin McKinney",
-        mentions: "@marvinmckinney",
-        review:
-            "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-        imgPath: "/images/client5.png",
-    },
-    {
-        name: "Floyd Miles",
-        mentions: "@floydmiles",
-        review:
-            "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-        imgPath: "/images/client4.png",
-    },
-    {
-        name: "Albert Flores",
-        mentions: "@albertflores",
-        review:
-            "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-        imgPath: "/images/client6.png",
+        name: "dominusoft-logo",
+        imgPath: "/images/dominusoft_logo.jpeg",
     },
 ];
 
@@ -270,7 +213,6 @@ export {
     counterItems,
     expCards,
     expLogos,
-    testimonials,
     socialImgs,
     techStackIcons,
     techStackImgs,
